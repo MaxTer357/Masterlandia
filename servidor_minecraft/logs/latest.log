@@ -235,3 +235,11 @@ java.util.ConcurrentModificationException: null
 [19:40:46] [Server thread/INFO]: MaxxTer357[/127.173.243.67:46795] logged in with entity id 1364 at ([world]-141.6549830765036, 70.0, -124.42198811228155)
 [19:40:57] [Server thread/INFO]: MaxxTer357 lost connection: Disconnected
 [19:40:57] [Server thread/INFO]: MaxxTer357 left the game
+[19:49:42] [User Authenticator #3/INFO]: UUID of player MaxxTer357 is 17547074-87d0-3c2a-9d72-1fca58296ef7
+[19:49:44] [Server thread/INFO]: MaxxTer357 joined the game
+[19:49:44] [Server thread/INFO]: MaxxTer357[/127.173.243.67:47579] logged in with entity id 1485 at ([world]-132.77997618221312, 70.0, -121.61615873310205)
+[19:50:11] [Server thread/INFO]: MaxxTer357 issued server command: /gm 0
+[19:50:37] [Server thread/INFO]: MaxxTer357 issued server command: /difficulty normal
+[19:50:37] [Server thread/INFO]: [MaxxTer357: The difficulty has been set to Normal]
+[19:50:42] [Server thread/INFO]: MaxxTer357 was blown up by Creeper
+[19:50:52] [Server thread/INFO]: MaxxTer357 issued server command: /gm 1
