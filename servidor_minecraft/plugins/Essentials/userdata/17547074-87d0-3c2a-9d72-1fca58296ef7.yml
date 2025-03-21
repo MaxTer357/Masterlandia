@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
-  login: 1742584806635
+  logout: 1742585660489
+  login: 1742585656085
 money: '0'
 last-account-name: MaxxTer357
+logoutlocation:
+  world: 33bf8dca-4fd6-4bb8-896b-f275ed75173f
+  world-name: world
+  x: -141.6549830765036
+  y: 70.0
+  z: -124.42198811228155
+  yaw: 155.24835205078125
+  pitch: 11.40019702911377
