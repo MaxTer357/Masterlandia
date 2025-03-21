@@ -230,3 +230,8 @@ java.util.ConcurrentModificationException: null
 [19:34:16] [Server thread/INFO]: MaxxTer357[/127.173.243.67:45501] logged in with entity id 1278 at ([world]-143.72896154576443, 70.0, -123.85476259051924)
 [19:34:20] [Server thread/INFO]: MaxxTer357 lost connection: Disconnected
 [19:34:20] [Server thread/INFO]: MaxxTer357 left the game
+[19:40:45] [User Authenticator #2/INFO]: UUID of player MaxxTer357 is 17547074-87d0-3c2a-9d72-1fca58296ef7
+[19:40:46] [Server thread/INFO]: MaxxTer357 joined the game
+[19:40:46] [Server thread/INFO]: MaxxTer357[/127.173.243.67:46795] logged in with entity id 1364 at ([world]-141.6549830765036, 70.0, -124.42198811228155)
+[19:40:57] [Server thread/INFO]: MaxxTer357 lost connection: Disconnected
+[19:40:57] [Server thread/INFO]: MaxxTer357 left the game
