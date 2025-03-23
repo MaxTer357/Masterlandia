@@ -260,3 +260,64 @@ java.util.ConcurrentModificationException: null
 [00:39:54] [Server thread/INFO]: _MaxTer357_ was shot by Skeleton
 [00:40:07] [Server thread/INFO]: MaxxTer357 has made the advancement [Monster Hunter]
 [00:40:37] [Server thread/INFO]: _MaxTer357_ issued server command: /home casa1
+[00:43:05] [Server thread/INFO]: MaxxTer357 was slain by Zombie
+[00:44:02] [Server thread/INFO]: MaxxTer357 was blown up by Creeper
+[00:44:02] [Server thread/INFO]: _MaxTer357_ was blown up by Creeper
+[00:44:11] [Server thread/INFO]: _MaxTer357_ issued server command: /home casa1
+[00:47:26] [Async Chat Thread - #11/INFO]: [Not Secure] <MaxxTer357> ya sabes craftear ??
+[00:47:45] [Async Chat Thread - #11/INFO]: [Not Secure] <MaxxTer357> ya sabes craftear ??
+[00:47:46] [Async Chat Thread - #11/INFO]: [Not Secure] <MaxxTer357> ya sabes craftear ??
+[00:47:46] [Async Chat Thread - #11/INFO]: [Not Secure] <MaxxTer357> ya sabes craftear ??
+[00:47:46] [Async Chat Thread - #11/INFO]: [Not Secure] <MaxxTer357> ya sabes craftear ??
+[00:49:07] [User Authenticator #3/INFO]: UUID of player RickSpether05 is e8e06145-8d88-37d8-9c09-6d7b0035b68c
+[00:49:08] [Server thread/INFO]: RickSpether05 joined the game
+[00:49:08] [Server thread/INFO]: RickSpether05[/127.195.105.238:49117] logged in with entity id 22144 at ([world]67.5, 69.0, -53.5)
+[00:49:09] [Server thread/INFO]: RickSpether05 has made the advancement [Getting an Upgrade]
+[00:49:28] [Async Chat Thread - #13/INFO]: [Not Secure] <RickSpether05> Xepalugus
+[00:49:41] [Server thread/INFO]: RickSpether05 lost connection: Disconnected
+[00:49:41] [Server thread/INFO]: RickSpether05 left the game
+[00:52:38] [User Authenticator #4/INFO]: UUID of player RickSpether05 is e8e06145-8d88-37d8-9c09-6d7b0035b68c
+[00:52:39] [Server thread/INFO]: RickSpether05 joined the game
+[00:52:39] [Server thread/INFO]: RickSpether05[/127.195.105.238:41933] logged in with entity id 22768 at ([world]69.51072415978632, 63.0, -71.97638242016853)
+[00:52:44] [Async Chat Thread - #15/INFO]: [Not Secure] <RickSpether05> Xepalugus
+[00:53:00] [Async Chat Thread - #15/INFO]: [Not Secure] <RickSpether05> Soplamusalagalarga
+[00:53:23] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa MaxxTer357
+[00:53:29] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
+[00:53:44] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
+[00:53:52] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa MaxxTer357
+[00:53:55] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
+[00:54:34] [Async Chat Thread - #17/INFO]: [Not Secure] <MaxxTer357> ./tpa
+[00:54:46] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
+[00:54:49] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
+[00:55:02] [Server thread/INFO]: RickSpether05 issued server command: /tpa _MaxTer357_
+[00:55:14] [Server thread/INFO]: _MaxTer357_ issued server command: /tpaccept
+[00:55:30] [Server thread/INFO]: RickSpether05 issued server command: /tpa _MaxTer357_
+[00:55:34] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
+[00:55:45] [Server thread/INFO]: RickSpether05 issued server command: /tpa _MaxTer357_
+[00:55:47] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
+[00:55:50] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
+[00:55:50] [Server thread/INFO]: _MaxTer357_ issued server command: /tpaccept
+[00:56:49] [User Authenticator #5/INFO]: UUID of player Manueljose23 is b7c048a7-8319-3fc7-adf2-dbc16a2c99bf
+[00:56:50] [Server thread/INFO]: Manueljose23 joined the game
+[00:56:50] [Server thread/INFO]: Manueljose23[/127.147.163.133:34205] logged in with entity id 23932 at ([world]63.5, 64.0, -64.5)
+[00:56:50] [Server thread/INFO]: Manueljose23 has made the advancement [Getting an Upgrade]
+[00:56:54] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
+[00:56:55] [Server thread/INFO]: RickSpether05 issued server command: /tpa _MaxTer357_
+[00:56:56] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
+[00:57:09] [Server thread/INFO]: RickSpether05 has made the advancement [Monster Hunter]
+[00:57:22] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa Manueljose23
+[00:57:24] [Server thread/INFO]: Manueljose23 issued server command: /tpaccept
+[00:57:41] [Async Chat Thread - #19/INFO]: [Not Secure] <Manueljose23> ricardo callate
+[00:58:20] [Async Chat Thread - #19/INFO]: [Not Secure] <MaxxTer357> ./tpa
+[00:58:27] [Server thread/INFO]: RickSpether05 has made the advancement [Stone Age]
+[00:58:30] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa m
+[00:58:32] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
+[00:58:53] [Async Chat Thread - #19/INFO]: [Not Secure] <_MaxTer357_> ./tpa Maxxter357
+[00:59:08] [Server thread/INFO]: Manueljose23 issued server command: /tpa MaxxTer357
+[00:59:12] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
+[01:01:16] [Server thread/INFO]: Manueljose23 was shot by Skeleton
+[01:01:26] [Server thread/INFO]: RickSpether05 has made the advancement [Sweet Dreams]
+[01:01:29] [Server thread/INFO]: MaxxTer357 has made the advancement [Acquire Hardware]
+[01:01:45] [Server thread/INFO]: Manueljose23 issued server command: /tpa RickSpether05
+[01:01:55] [Server thread/INFO]: Manueljose23 issued server command: /tpa _MaxTer357_
+[01:02:18] [Server thread/INFO]: MaxxTer357 has made the advancement [Isn't It Iron Pick]
