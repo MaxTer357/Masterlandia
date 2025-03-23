@@ -405,6 +405,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2025-03-23 01:41:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
     "criteria": {
       "has_raw_iron": "2025-03-23 00:49:58 +0000"
@@ -830,6 +836,7 @@
       "minecraft:skeleton": "2025-03-23 00:40:07 +0000",
       "minecraft:spider": "2025-03-23 00:42:50 +0000",
       "minecraft:zombie": "2025-03-23 00:43:44 +0000",
+      "minecraft:creeper": "2025-03-23 01:39:59 +0000",
       "minecraft:drowned": "2025-03-23 01:21:43 +0000",
       "minecraft:zombie_villager": "2025-03-23 00:50:35 +0000"
     },
@@ -1021,6 +1028,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2025-03-23 01:40:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_tuff": {
     "criteria": {
       "has_tuff": "2025-03-23 01:08:37 +0000"
@@ -1064,6 +1077,12 @@
   "minecraft:recipes/building_blocks/hay_block": {
     "criteria": {
       "has_wheat": "2025-03-23 01:28:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-03-23 01:40:03 +0000"
     },
     "done": true
   },
