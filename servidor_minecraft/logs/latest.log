@@ -560,3 +560,7 @@ java.util.ConcurrentModificationException: null
 [03:22:13] [Server thread/INFO]: [Not Secure] [Server] Y despues se las van a cancelar porque esa una broma
 [03:22:31] [Server thread/INFO]: [Not Secure] [Server] XDDD
 [03:22:48] [Async Chat Thread - #48/INFO]: [Not Secure] <_MaxTer357_> y luego seguira haciendo contenido con sus amigos y les pagara porque es buena persona
+[03:30:04] [Server thread/INFO]: _MaxTer357_ was shot by Skeleton
+[03:31:32] [User Authenticator #11/INFO]: UUID of player MaxxTer357 is 17547074-87d0-3c2a-9d72-1fca58296ef7
+[03:31:33] [Server thread/INFO]: MaxxTer357 joined the game
+[03:31:33] [Server thread/INFO]: MaxxTer357[/127.141.63.150:35453] logged in with entity id 60040 at ([world]-232.63165811757207, 64.0, -168.7551814447927)
