@@ -23,6 +23,7 @@
       "minecraft:forest": "2025-03-23 00:49:09 +0000",
       "minecraft:cherry_grove": "2025-03-23 02:45:32 +0000",
       "minecraft:river": "2025-03-23 00:53:29 +0000",
+      "minecraft:meadow": "2025-03-23 02:53:33 +0000",
       "minecraft:plains": "2025-03-23 00:55:27 +0000"
     },
     "done": false
@@ -598,7 +599,8 @@
     "criteria": {
       "cooked_porkchop": "2025-03-23 01:11:25 +0000",
       "cooked_chicken": "2025-03-23 01:00:01 +0000",
-      "cooked_mutton": "2025-03-23 01:00:19 +0000"
+      "cooked_mutton": "2025-03-23 01:00:19 +0000",
+      "cooked_beef": "2025-03-23 02:57:30 +0000"
     },
     "done": false
   },
@@ -902,9 +904,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2025-03-23 02:56:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_stained_glass": {
     "criteria": {
       "has_glass": "2025-03-23 02:38:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2025-03-23 02:56:55 +0000"
     },
     "done": true
   },
@@ -947,6 +961,12 @@
   "minecraft:recipes/building_blocks/blue_stained_glass": {
     "criteria": {
       "has_glass": "2025-03-23 02:38:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2025-03-23 02:56:55 +0000"
     },
     "done": true
   },
