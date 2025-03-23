@@ -381,3 +381,26 @@ java.util.ConcurrentModificationException: null
 [01:38:04] [Server thread/INFO]: RickSpether05 issued server command: /tpa
 [01:38:19] [Server thread/INFO]: RickSpether05 issued server command: /tpa
 [01:38:43] [Server thread/INFO]: Manueljose23 fell from a high place
+[01:43:26] [Server thread/INFO]: _MaxTer357_ has made the advancement [Stone Age]
+[01:45:16] [Server thread/INFO]: Manueljose23 was slain by RickSpether05
+[01:47:02] [Server thread/INFO]: _MaxTer357_ was shot by Skeleton
+[01:47:20] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
+[01:47:22] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
+[01:47:22] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa RickSpether05
+[01:47:22] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
+[01:47:23] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
+[01:47:23] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
+[01:47:24] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
+[01:47:24] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
+[01:47:24] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
+[01:47:25] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
+[01:47:25] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
+[01:47:25] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
+[01:47:44] [Server thread/INFO]: RickSpether05 issued server command: /tpa
+[01:47:48] [Server thread/INFO]: RickSpether05 issued server command: /tpa
+[01:47:49] [Server thread/INFO]: Manueljose23 fell from a high place
+[01:47:51] [Server thread/INFO]: RickSpether05 issued server command: /tpa _MaxTer357_
+[01:48:32] [Server thread/INFO]: RickSpether05 issued server command: /tpa _MaxTer357_
+[01:48:47] [Server thread/INFO]: _MaxTer357_ issued server command: /tpaccept
+[01:49:59] [Server thread/INFO]: Manueljose23 issued server command: /tpa MaxxTer357
+[01:50:02] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
