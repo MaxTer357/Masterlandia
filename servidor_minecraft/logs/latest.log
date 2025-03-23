@@ -489,3 +489,14 @@ java.util.ConcurrentModificationException: null
 [02:25:28] [Server thread/INFO]: RickSpether05 issued server command: /accept
 [02:27:21] [Server thread/INFO]: MaxxTer357 has made the advancement [Sweet Dreams]
 [02:32:06] [Server thread/INFO]: MaxxTer357 has made the advancement [The Parrots and the Bats]
+[02:33:24] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa MaxxTer357
+[02:33:25] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
+[02:38:01] [Server thread/INFO]: MaxxTer357 lost connection: Disconnected
+[02:38:01] [Server thread/INFO]: MaxxTer357 left the game
+[02:38:16] [User Authenticator #9/INFO]: UUID of player MaxxTer357 is 17547074-87d0-3c2a-9d72-1fca58296ef7
+[02:38:18] [Server thread/INFO]: MaxxTer357 joined the game
+[02:38:18] [Server thread/INFO]: MaxxTer357[/127.141.63.150:33089] logged in with entity id 51259 at ([world]-248.0389601566729, 63.0, -154.83457916973478)
+[02:42:22] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa RickSpether05
+[02:42:27] [Server thread/INFO]: RickSpether05 issued server command: /accept
+[02:43:08] [Server thread/INFO]: MaxxTer357 lost connection: Disconnected
+[02:43:08] [Server thread/INFO]: MaxxTer357 left the game
