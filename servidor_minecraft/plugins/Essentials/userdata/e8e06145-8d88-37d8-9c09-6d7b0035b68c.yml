@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1742690981453
-  login: 1742691159554
+  logout: 1742696388752
+  login: 1742696398950
 money: '0'
 last-account-name: RickSpether05
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 33bf8dca-4fd6-4bb8-896b-f275ed75173f
   world-name: world
-  x: 69.51072415978632
-  y: 63.0
-  z: -71.97638242016853
-  yaw: -148.800048828125
-  pitch: 6.149994373321533
+  x: -297.2334193808312
+  y: 67.0
+  z: -99.63097045233387
+  yaw: -23.0994873046875
+  pitch: 15.300007820129395

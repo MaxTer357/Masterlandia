@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
-  login: 1742691410852
+  logout: 1742696123754
+  login: 1742696116150
 money: '0'
 last-account-name: Manueljose23
 lastlocation:
@@ -28,3 +28,11 @@ lastlocation:
   z: -64.5
   yaw: 0.0
   pitch: 0.0
+logoutlocation:
+  world: 33bf8dca-4fd6-4bb8-896b-f275ed75173f
+  world-name: world
+  x: -253.99847925188118
+  y: 64.0
+  z: -184.3488826407853
+  yaw: -105.1646499633789
+  pitch: 22.499900817871094
