@@ -21,6 +21,7 @@
     "criteria": {
       "minecraft:beach": "2025-03-23 00:57:01 +0000",
       "minecraft:forest": "2025-03-23 00:49:09 +0000",
+      "minecraft:cherry_grove": "2025-03-23 02:45:32 +0000",
       "minecraft:river": "2025-03-23 00:53:29 +0000",
       "minecraft:plains": "2025-03-23 00:55:27 +0000"
     },
@@ -895,6 +896,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
+    "criteria": {
+      "has_pink_petals": "2025-03-23 02:46:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_stained_glass": {
     "criteria": {
       "has_glass": "2025-03-23 02:38:56 +0000"
@@ -991,6 +998,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2025-03-23 02:46:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/bread": {
     "criteria": {
       "has_wheat": "2025-03-23 02:24:13 +0000"
@@ -1000,6 +1013,12 @@
   "minecraft:recipes/building_blocks/hay_block": {
     "criteria": {
       "has_wheat": "2025-03-23 02:24:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_hay_block": "2025-03-23 02:46:24 +0000"
     },
     "done": true
   },
