@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1742691746802
+  logout: 1742700867404
   login: 1742691803200
 money: '0'
 last-account-name: _MaxTer357_
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 33bf8dca-4fd6-4bb8-896b-f275ed75173f
   world-name: world
-  x: 92.75359694271171
+  x: 63.40544186509742
   y: 63.0
-  z: -151.70166094299816
-  yaw: 15.58575439453125
-  pitch: 29.249971389770508
+  z: -70.49869306809212
+  yaw: -57.000091552734375
+  pitch: 8.399999618530273

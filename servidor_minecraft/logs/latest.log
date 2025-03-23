@@ -564,3 +564,15 @@ java.util.ConcurrentModificationException: null
 [03:31:32] [User Authenticator #11/INFO]: UUID of player MaxxTer357 is 17547074-87d0-3c2a-9d72-1fca58296ef7
 [03:31:33] [Server thread/INFO]: MaxxTer357 joined the game
 [03:31:33] [Server thread/INFO]: MaxxTer357[/127.141.63.150:35453] logged in with entity id 60040 at ([world]-232.63165811757207, 64.0, -168.7551814447927)
+[03:34:06] [Server thread/INFO]: MaxxTer357 issued server command: /gm 3
+[03:34:11] [Server thread/INFO]: MaxxTer357 issued server command: /tp _MaxTer357_
+[03:34:19] [Server thread/INFO]: MaxxTer357 issued server command: /tp _MaxTer357_
+[03:34:27] [Server thread/INFO]: _MaxTer357_ lost connection: Disconnected
+[03:34:27] [Server thread/INFO]: _MaxTer357_ left the game
+[03:34:34] [Server thread/INFO]: MaxxTer357 issued server command: /home casa1
+[03:34:39] [Server thread/INFO]: MaxxTer357 issued server command: /gm 0
+[03:36:23] [Server thread/INFO]: MaxxTer357 lost connection: Disconnected
+[03:36:23] [Server thread/INFO]: MaxxTer357 left the game
+[03:48:59] [Server thread/INFO]: RickSpether05 was slain by Zombie
+[03:49:19] [Server thread/INFO]: RickSpether05 lost connection: Disconnected
+[03:49:19] [Server thread/INFO]: RickSpether05 left the game
