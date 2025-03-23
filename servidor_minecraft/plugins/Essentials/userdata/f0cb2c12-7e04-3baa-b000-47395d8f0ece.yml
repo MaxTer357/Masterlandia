@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.243.117.33
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 0
+  login: 1742688460609
+money: '0'
+last-account-name: _MaxTer357_
+lastlocation:
+  world: 33bf8dca-4fd6-4bb8-896b-f275ed75173f
+  world-name: world
+  x: 57.5
+  y: 63.0
+  z: -65.5
+  yaw: 0.0
+  pitch: 0.0

@@ -1,86 +1,108 @@
-[22:11:32] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
-[22:11:32] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[22:11:32] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[22:11:34] [ServerMain/INFO]: [PluginInitializerManager] Initialized 4 plugins
-[22:11:34] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (4):
- - Essentials (2.21.0-dev+111-b54c8c1), EssentialsSpawn (2.21.0-dev+111-b54c8c1), SimpleTpa (7.6), ViaVersion (5.0.3)
-[22:11:40] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[22:11:43] [ServerMain/INFO]: Loaded 1290 recipes
-[22:11:43] [ServerMain/INFO]: Loaded 1399 advancements
-[22:11:43] [Server thread/INFO]: Starting minecraft server version 1.21
-[22:11:43] [Server thread/INFO]: Loading properties
-[22:11:43] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[22:11:44] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[22:11:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[22:11:44] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:11:46] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[22:11:46] [Server thread/INFO]: Default game type: SURVIVAL
-[22:11:46] [Server thread/INFO]: Generating keypair
-[22:11:46] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:11:46] [Server thread/INFO]: Using epoll channel type
-[22:11:46] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[22:11:46] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[22:11:48] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+111-b54c8c1
-[22:11:48] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+111-b54c8c1
-[22:11:48] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.3
-[22:11:48] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.3 is now loaded. Registering protocol transformers and injecting...
-[22:11:50] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[22:11:50] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[22:11:52] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v7.6
-[22:11:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:11:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:11:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:11:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:11:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:11:52] [Server thread/INFO]: Preparing level "world"
-[22:11:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:11:54] [Server thread/INFO]: Time elapsed: 1608 ms
-[22:11:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[22:11:54] [Server thread/INFO]: Time elapsed: 311 ms
-[22:11:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[22:11:54] [Server thread/INFO]: Time elapsed: 254 ms
-[22:11:54] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+111-b54c8c1
-[22:11:56] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[22:11:56] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[22:11:56] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[22:11:57] [Server thread/INFO]: [Essentials] Loaded 42679 items from items.json.
-[22:11:57] [Server thread/INFO]: [Essentials] Using locale en
-[22:11:57] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[22:11:58] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[22:11:58] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[22:11:58] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
-[22:11:58] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[22:11:58] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.3
-[22:11:58] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21 (767)
-[22:11:58] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
-[22:11:58] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
-[22:11:58] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
-[22:11:58] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://viaversion.com/setup
-[22:11:58] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
-[22:11:58] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.6
-[22:11:58] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[22:11:58] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.6
-[22:11:58] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[22:11:58] [Server thread/INFO]: [spark] Starting background profiler...
-[22:11:59] [Server thread/INFO]: Done preparing level "world" (7.659s)
-[22:11:59] [Server thread/INFO]: Running delayed init tasks
-[22:11:59] [Craft Scheduler Thread - 1 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[22:11:59] [Server thread/INFO]: Done (28.851s)! For help, type "help"
-[22:11:59] [Server thread/INFO]: Timings Reset
-[22:11:59] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
-[22:12:00] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.2.1, you're on: 5.0.3
-[22:12:00] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] You're 81 EssentialsX dev build(s) out of date!
-[22:12:00] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[22:14:18] [User Authenticator #0/INFO]: UUID of player MaxxTer357 is 17547074-87d0-3c2a-9d72-1fca58296ef7
-[22:14:19] [Server thread/INFO]: MaxxTer357 joined the game
-[22:14:20] [Server thread/INFO]: MaxxTer357[/127.141.63.150:47673] logged in with entity id 51 at ([world]18.913491358274086, 112.74313702347897, -48.15571361737945)
-[22:14:30] [Server thread/INFO]: MaxxTer357 issued server command: /kill
-[22:14:34] [Server thread/INFO]: MaxxTer357 issued server command: /kill
-[22:14:38] [Server thread/INFO]: MaxxTer357 issued server command: /kill MaxxTer357
-[22:14:38] [Server thread/INFO]: MaxxTer357 died
-[22:14:55] [Server thread/INFO]: MaxxTer357 issued server command: /time set day
-[22:16:40] [Server thread/INFO]: MaxxTer357 issued server command: /kill MaxxTer357
-[22:16:40] [Server thread/INFO]: MaxxTer357 died
-[23:08:42] [Server thread/INFO]: MaxxTer357 issued server command: /time set day
-[23:09:10] [Server thread/INFO]: MaxxTer357 issued server command: /time set day world
-[23:09:14] [Server thread/INFO]: MaxxTer357 issued server command: /time set day
+[00:04:28] [Server thread/INFO]: MaxxTer357 lost connection: Disconnected
+[00:04:28] [Server thread/INFO]: MaxxTer357 left the game
+[00:07:22] [User Authenticator #1/INFO]: UUID of player MaxxTer357 is 17547074-87d0-3c2a-9d72-1fca58296ef7
+[00:07:23] [Server thread/INFO]: MaxxTer357 joined the game
+[00:07:23] [Server thread/INFO]: MaxxTer357[/127.141.63.150:55545] logged in with entity id 16526 at ([world]-1025.172124017545, 44.04728353984253, -273.45312894782063)
+[00:07:39] [User Authenticator #1/INFO]: UUID of player _MaxTer357_ is f0cb2c12-7e04-3baa-b000-47395d8f0ece
+[00:07:40] [Server thread/INFO]: _MaxTer357_ joined the game
+[00:07:40] [Server thread/INFO]: _MaxTer357_[/127.243.117.33:49001] logged in with entity id 16828 at ([world]57.5, 63.0, -65.5)
+[00:07:40] [Server thread/INFO]: _MaxTer357_ has made the advancement [Getting an Upgrade]
+[00:07:53] [Server thread/INFO]: MaxxTer357 issued server command: /tp _MaxTer357_
+[00:09:38] [Server thread/INFO]: MaxxTer357 issued server command: /reload
+[00:09:38] [Server thread/INFO]: MaxxTer357: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[00:09:46] [Server thread/INFO]: MaxxTer357 issued server command: /reload confirm
+[00:09:46] [Server thread/INFO]: MaxxTer357: Please note that this command is not supported and may cause issues when using some plugins.
+[00:09:46] [Server thread/INFO]: MaxxTer357: If you encounter any issues please use the /stop command to restart your server.
+[00:09:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:09:46] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:09:46] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v7.6
+[00:09:46] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[00:09:46] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 7.6
+[00:09:46] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.0.3
+[00:09:46] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[00:09:46] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[00:09:46] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[00:09:46] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+111-b54c8c1
+[00:09:46] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[00:09:46] [Server thread/INFO]: Loaded 1290 recipes
+[00:09:46] [Server thread/INFO]: Loaded 1399 advancements
+[00:09:47] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[00:09:47] [Paper Async Command Builder Thread Pool - 3/ERROR]: Caught previously unhandled exception :
+[00:09:47] [Paper Async Command Builder Thread Pool - 3/ERROR]: Paper Async Command Builder Thread Pool - 3
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
+	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
+	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:537) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.sendAsync(Commands.java:496) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:475) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[00:09:47] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/SkinsRestorer.jar'...
+[00:09:48] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SkinsRestorer.jar' in 1413ms.
+[00:09:48] [Server thread/INFO]: [PluginInitializerManager] Initialized 5 plugins
+[00:09:48] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+ - Essentials (2.21.0-dev+111-b54c8c1), EssentialsSpawn (2.21.0-dev+111-b54c8c1), SimpleTpa (7.6), SkinsRestorer (15.6.0), ViaVersion (5.0.3)
+[00:09:49] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+111-b54c8c1
+[00:09:49] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.3
+[00:09:49] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.3 is now loaded. Registering protocol transformers and injecting...
+[00:09:49] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[00:09:50] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[00:09:50] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[00:09:51] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[00:09:51] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v7.6
+[00:09:51] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.0
+[00:09:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:09:51] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.0
+[00:09:52] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[00:09:52] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
+[00:09:53] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[00:09:53] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+111-b54c8c1
+[00:09:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[00:09:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[00:09:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[00:09:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[00:09:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[00:09:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[00:09:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[00:09:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.0
+[00:09:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: dec2ffc
+[00:09:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[00:09:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[00:09:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[00:09:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[00:09:54] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[00:09:54] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[00:09:54] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[00:09:54] [Server thread/INFO]: [Essentials] Loaded 42679 items from items.json.
+[00:09:54] [Server thread/INFO]: [Essentials] Using locale en
+[00:09:54] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[00:09:54] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[00:09:54] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[00:09:54] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.3
+[00:09:54] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21 (767)
+[00:09:55] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
+[00:09:55] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
+[00:09:55] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
+[00:09:55] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://viaversion.com/setup
+[00:09:55] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
+[00:09:55] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[00:09:55] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[00:09:55] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.6
+[00:09:55] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[00:09:55] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.6
+[00:09:55] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[00:09:55] [Server thread/INFO]: MaxxTer357: Reload complete.
+[00:09:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8812ms or 176 ticks behind
+[00:09:55] [Server thread/INFO]: Timings Reset
+[00:09:55] [Craft Scheduler Thread - 16 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[00:09:55] [Craft Scheduler Thread - 14 - Essentials/INFO]: [Essentials] Fetching version information...
+[00:09:55] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.2.1, you're on: 5.0.3
+[00:09:55] [Craft Scheduler Thread - 14 - Essentials/WARN]: [Essentials] You're 81 EssentialsX dev build(s) out of date!
+[00:09:55] [Craft Scheduler Thread - 14 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[00:10:59] [Server thread/INFO]: MaxxTer357 lost connection: Disconnected
+[00:10:59] [Server thread/INFO]: MaxxTer357 left the game
+[00:11:04] [User Authenticator #2/INFO]: UUID of player MaxxTer357 is 17547074-87d0-3c2a-9d72-1fca58296ef7
+[00:11:05] [Server thread/INFO]: MaxxTer357 joined the game
+[00:11:05] [Server thread/INFO]: MaxxTer357[/127.141.63.150:37645] logged in with entity id 17331 at ([world]72.67934377592505, 63.0, -81.78859424360279)
+[00:11:49] [Async Chat Thread - #0/INFO]: [Not Secure] <MaxxTer357> ./skin nombre

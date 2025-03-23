@@ -11,20 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1742688473865
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1742587352939
-  login: 1742681660226
+  logout: 1742688659754
+  login: 1742688665602
 money: '0'
 last-account-name: MaxxTer357
 logoutlocation:
   world: 33bf8dca-4fd6-4bb8-896b-f275ed75173f
   world-name: world
-  x: 18.913491358274086
-  y: 112.74313702347897
-  z: -48.15571361737945
-  yaw: 93.14920806884766
-  pitch: 32.850040435791016
+  x: 72.67934377592505
+  y: 63.0
+  z: -81.78859424360279
+  yaw: 30.4468994140625
+  pitch: 11.0994291305542
+lastlocation:
+  world: 33bf8dca-4fd6-4bb8-896b-f275ed75173f
+  world-name: world
+  x: -1018.6423599552377
+  y: 75.0
+  z: -211.305135272308
+  yaw: -32.51066207885742
+  pitch: -0.15004993975162506
