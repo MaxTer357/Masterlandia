@@ -267,6 +267,7 @@
       "minecraft:skeleton": "2025-03-23 01:00:26 +0000",
       "minecraft:spider": "2025-03-23 01:45:06 +0000",
       "minecraft:zombie": "2025-03-23 00:57:09 +0000",
+      "minecraft:creeper": "2025-03-23 03:15:13 +0000",
       "minecraft:drowned": "2025-03-23 01:19:11 +0000"
     },
     "done": false
@@ -922,6 +923,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2025-03-23 03:14:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_blue_stained_glass": {
     "criteria": {
       "has_glass": "2025-03-23 02:38:56 +0000"
@@ -1030,9 +1037,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2025-03-23 03:15:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/hay_block": {
     "criteria": {
       "has_wheat": "2025-03-23 02:24:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-03-23 03:15:17 +0000"
     },
     "done": true
   },
