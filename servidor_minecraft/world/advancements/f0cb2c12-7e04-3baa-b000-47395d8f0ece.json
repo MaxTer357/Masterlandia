@@ -259,6 +259,7 @@
       "cooked_porkchop": "2025-03-23 01:16:35 +0000",
       "apple": "2025-03-23 00:35:36 +0000",
       "spider_eye": "2025-03-23 01:24:37 +0000",
+      "cooked_chicken": "2025-03-23 02:24:55 +0000",
       "rotten_flesh": "2025-03-23 01:22:08 +0000"
     },
     "done": false
@@ -271,6 +272,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:spider": "2025-03-23 02:20:17 +0000",
       "minecraft:zombie": "2025-03-23 00:37:22 +0000"
     },
     "done": false
@@ -449,6 +451,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2025-03-23 02:22:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_nugget_from_smelting": {
     "criteria": {
       "has_iron_hoe": "2025-03-23 02:15:46 +0000"
@@ -533,6 +541,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2025-03-23 02:22:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2025-03-23 01:43:26 +0000"
@@ -596,6 +610,12 @@
   "minecraft:recipes/combat/bow": {
     "criteria": {
       "has_string": "2025-03-23 01:54:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2025-03-23 02:22:55 +0000"
     },
     "done": true
   },
