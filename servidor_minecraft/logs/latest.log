@@ -451,3 +451,6 @@ java.util.ConcurrentModificationException: null
 [02:01:08] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa Manueljose23
 [02:01:13] [Server thread/INFO]: Manueljose23 issued server command: /tpaccept
 [02:01:23] [Async Chat Thread - #35/INFO]: [Not Secure] <Manueljose23> rick mmg
+[02:07:54] [Server thread/INFO]: RickSpether05 has made the advancement [A Seedy Place]
+[02:09:37] [Server thread/INFO]: MaxxTer357 issued server command: /home casa1
+[02:12:32] [Server thread/INFO]: Villager Villager['Villager'/29622, uuid='8e2ea0fc-19dc-49d9-be57-239b01b3db27', l='ServerLevel[world]', x=-424.56, y=71.00, z=-259.39, cpos=[-27, -17], tl=21550, v=true] died, message: 'Villager suffocated in a wall'
