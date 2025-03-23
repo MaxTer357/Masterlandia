@@ -256,7 +256,9 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-03-23 01:16:35 +0000",
-      "apple": "2025-03-23 00:35:36 +0000"
+      "apple": "2025-03-23 00:35:36 +0000",
+      "spider_eye": "2025-03-23 01:24:37 +0000",
+      "rotten_flesh": "2025-03-23 01:22:08 +0000"
     },
     "done": false
   },
@@ -413,6 +415,12 @@
   "minecraft:recipes/misc/pumpkin_seeds": {
     "criteria": {
       "has_pumpkin": "2025-03-23 01:07:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2025-03-23 01:21:09 +0000"
     },
     "done": true
   },

@@ -345,6 +345,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2025-03-23 01:24:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/iron_tools": {
     "criteria": {
       "iron_pickaxe": "2025-03-23 01:02:18 +0000"
@@ -492,6 +498,12 @@
   "minecraft:recipes/building_blocks/deepslate_tile_slab_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-03-23 01:07:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2025-03-23 01:28:37 +0000"
     },
     "done": true
   },
@@ -818,9 +830,16 @@
       "minecraft:skeleton": "2025-03-23 00:40:07 +0000",
       "minecraft:spider": "2025-03-23 00:42:50 +0000",
       "minecraft:zombie": "2025-03-23 00:43:44 +0000",
+      "minecraft:drowned": "2025-03-23 01:21:43 +0000",
       "minecraft:zombie_villager": "2025-03-23 00:50:35 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2025-03-23 01:24:17 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
@@ -972,6 +991,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2025-03-23 01:28:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2025-03-23 00:36:43 +0000"
@@ -987,6 +1012,12 @@
   "minecraft:recipes/decorations/candle": {
     "criteria": {
       "has_string": "2025-03-23 00:44:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2025-03-23 01:28:42 +0000"
     },
     "done": true
   },
@@ -1007,7 +1038,8 @@
       "chicken": "2025-03-23 00:52:02 +0000",
       "cooked_chicken": "2025-03-23 00:58:17 +0000",
       "rotten_flesh": "2025-03-23 00:40:19 +0000",
-      "cooked_mutton": "2025-03-23 01:05:03 +0000"
+      "cooked_mutton": "2025-03-23 01:05:03 +0000",
+      "cooked_salmon": "2025-03-23 01:22:07 +0000"
     },
     "done": false
   },
@@ -1026,6 +1058,12 @@
   "minecraft:recipes/building_blocks/deepslate_tiles_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-03-23 01:07:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2025-03-23 01:28:42 +0000"
     },
     "done": true
   },
@@ -1146,6 +1184,12 @@
   "minecraft:recipes/redstone/piston": {
     "criteria": {
       "has_redstone": "2025-03-23 01:07:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2025-03-23 01:28:37 +0000"
     },
     "done": true
   },
