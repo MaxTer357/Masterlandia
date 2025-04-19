@@ -1,609 +1,107 @@
-[00:04:28] [Server thread/INFO]: MaxxTer357 lost connection: Disconnected
-[00:04:28] [Server thread/INFO]: MaxxTer357 left the game
-[00:07:22] [User Authenticator #1/INFO]: UUID of player MaxxTer357 is 17547074-87d0-3c2a-9d72-1fca58296ef7
-[00:07:23] [Server thread/INFO]: MaxxTer357 joined the game
-[00:07:23] [Server thread/INFO]: MaxxTer357[/127.141.63.150:55545] logged in with entity id 16526 at ([world]-1025.172124017545, 44.04728353984253, -273.45312894782063)
-[00:07:39] [User Authenticator #1/INFO]: UUID of player _MaxTer357_ is f0cb2c12-7e04-3baa-b000-47395d8f0ece
-[00:07:40] [Server thread/INFO]: _MaxTer357_ joined the game
-[00:07:40] [Server thread/INFO]: _MaxTer357_[/127.243.117.33:49001] logged in with entity id 16828 at ([world]57.5, 63.0, -65.5)
-[00:07:40] [Server thread/INFO]: _MaxTer357_ has made the advancement [Getting an Upgrade]
-[00:07:53] [Server thread/INFO]: MaxxTer357 issued server command: /tp _MaxTer357_
-[00:09:38] [Server thread/INFO]: MaxxTer357 issued server command: /reload
-[00:09:38] [Server thread/INFO]: MaxxTer357: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
-[00:09:46] [Server thread/INFO]: MaxxTer357 issued server command: /reload confirm
-[00:09:46] [Server thread/INFO]: MaxxTer357: Please note that this command is not supported and may cause issues when using some plugins.
-[00:09:46] [Server thread/INFO]: MaxxTer357: If you encounter any issues please use the /stop command to restart your server.
-[00:09:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[00:09:46] [Server thread/INFO]: Using 4 threads for Netty based IO
-[00:09:46] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v7.6
-[00:09:46] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[00:09:46] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 7.6
-[00:09:46] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.0.3
-[00:09:46] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
-[00:09:46] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[00:09:46] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
-[00:09:46] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+111-b54c8c1
-[00:09:46] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
-[00:09:46] [Server thread/INFO]: Loaded 1290 recipes
-[00:09:46] [Server thread/INFO]: Loaded 1399 advancements
-[00:09:47] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
-[00:09:47] [Paper Async Command Builder Thread Pool - 3/ERROR]: Caught previously unhandled exception :
-[00:09:47] [Paper Async Command Builder Thread Pool - 3/ERROR]: Paper Async Command Builder Thread Pool - 3
-java.util.ConcurrentModificationException: null
-	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
-	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
-	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:537) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.sendAsync(Commands.java:496) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:475) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[00:09:47] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/SkinsRestorer.jar'...
-[00:09:48] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SkinsRestorer.jar' in 1413ms.
-[00:09:48] [Server thread/INFO]: [PluginInitializerManager] Initialized 5 plugins
-[00:09:48] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (5):
- - Essentials (2.21.0-dev+111-b54c8c1), EssentialsSpawn (2.21.0-dev+111-b54c8c1), SimpleTpa (7.6), SkinsRestorer (15.6.0), ViaVersion (5.0.3)
-[00:09:49] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+111-b54c8c1
-[00:09:49] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.3
-[00:09:49] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.3 is now loaded. Registering protocol transformers and injecting...
-[00:09:49] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
-[00:09:50] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[00:09:50] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[00:09:51] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+111-b54c8c1
-[00:09:51] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v7.6
-[00:09:51] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.0
-[00:09:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:09:51] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.0
-[00:09:52] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[00:09:52] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
-[00:09:53] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[00:09:53] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+111-b54c8c1
-[00:09:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[00:09:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[00:09:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[00:09:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[00:09:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[00:09:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[00:09:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[00:09:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.0
-[00:09:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: dec2ffc
-[00:09:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[00:09:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[00:09:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[00:09:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[00:09:54] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[00:09:54] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[00:09:54] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[00:09:54] [Server thread/INFO]: [Essentials] Loaded 42679 items from items.json.
-[00:09:54] [Server thread/INFO]: [Essentials] Using locale en
-[00:09:54] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[00:09:54] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[00:09:54] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[00:09:54] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.3
-[00:09:54] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21 (767)
-[00:09:55] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
-[00:09:55] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
-[00:09:55] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
-[00:09:55] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://viaversion.com/setup
-[00:09:55] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
-[00:09:55] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
-[00:09:55] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[00:09:55] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.6
-[00:09:55] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[00:09:55] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.6
-[00:09:55] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[00:09:55] [Server thread/INFO]: MaxxTer357: Reload complete.
-[00:09:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8812ms or 176 ticks behind
-[00:09:55] [Server thread/INFO]: Timings Reset
-[00:09:55] [Craft Scheduler Thread - 16 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[00:09:55] [Craft Scheduler Thread - 14 - Essentials/INFO]: [Essentials] Fetching version information...
-[00:09:55] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.2.1, you're on: 5.0.3
-[00:09:55] [Craft Scheduler Thread - 14 - Essentials/WARN]: [Essentials] You're 81 EssentialsX dev build(s) out of date!
-[00:09:55] [Craft Scheduler Thread - 14 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[00:10:59] [Server thread/INFO]: MaxxTer357 lost connection: Disconnected
-[00:10:59] [Server thread/INFO]: MaxxTer357 left the game
-[00:11:04] [User Authenticator #2/INFO]: UUID of player MaxxTer357 is 17547074-87d0-3c2a-9d72-1fca58296ef7
-[00:11:05] [Server thread/INFO]: MaxxTer357 joined the game
-[00:11:05] [Server thread/INFO]: MaxxTer357[/127.141.63.150:37645] logged in with entity id 17331 at ([world]72.67934377592505, 63.0, -81.78859424360279)
-[00:11:49] [Async Chat Thread - #0/INFO]: [Not Secure] <MaxxTer357> ./skin nombre
-[00:12:07] [Server thread/INFO]: _MaxTer357_ issued server command: /skin Ichigo
-[00:14:04] [Server thread/INFO]: MaxxTer357 issued server command: /sethome casa1
-[00:14:07] [Server thread/INFO]: _MaxTer357_ issued server command: /sethome casa1
-[00:14:07] [Server thread/INFO]: [Essentials] _MaxTer357_ was denied access to command.
-[00:14:09] [Async Chat Thread - #1/INFO]: [Not Secure] <MaxxTer357> ./sethome casa1
-[00:14:22] [Server thread/INFO]: _MaxTer357_ issued server command: /sethome casa1
-[00:14:22] [Server thread/INFO]: [Essentials] _MaxTer357_ was denied access to command.
-[00:14:33] [Async Chat Thread - #1/INFO]: [Not Secure] <MaxxTer357> ./tpa
-[00:14:38] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa
-[00:15:09] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa
-[00:15:33] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa _MaxTer357_
-[00:15:37] [Async Chat Thread - #3/INFO]: [Not Secure] <MaxxTer357> ./tpa _MaxTer357_
-[00:15:46] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa
-[00:16:08] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa MaxTer357
-[00:16:09] [Server thread/INFO]: MaxxTer357 issued server command: /tpa _MaxTer357_
-[00:16:39] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa
-[00:17:10] [Server thread/INFO]: _MaxTer357_ issued server command: /tpaccept
-[00:17:13] [Server thread/INFO]: MaxxTer357 issued server command: /tpa _MaxTer357_
-[00:17:20] [Server thread/INFO]: _MaxTer357_ issued server command: /tpaccept
-[00:18:26] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa MaxxTer357
-[00:18:34] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
-[00:19:12] [Server thread/INFO]: _MaxTer357_ issued server command: /sendhome casa1
-[00:19:29] [Async Chat Thread - #5/INFO]: [Not Secure] <_MaxTer357_> ./sendhome casa1
-[00:19:35] [Async Chat Thread - #5/INFO]: [Not Secure] <MaxxTer357> ./sethome casa1
-[00:19:45] [Server thread/INFO]: _MaxTer357_ issued server command: /sethome casa1
-[00:19:45] [Server thread/INFO]: [Essentials] _MaxTer357_ was denied access to command.
-[00:20:40] [Server thread/INFO]: MaxxTer357 issued server command: /reload
-[00:20:40] [Server thread/INFO]: MaxxTer357: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
-[00:20:44] [Server thread/INFO]: MaxxTer357 issued server command: /reload confirm
-[00:20:44] [Server thread/INFO]: MaxxTer357: Please note that this command is not supported and may cause issues when using some plugins.
-[00:20:44] [Server thread/INFO]: MaxxTer357: If you encounter any issues please use the /stop command to restart your server.
-[00:20:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[00:20:44] [Server thread/INFO]: Using 4 threads for Netty based IO
-[00:20:44] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.0
-[00:20:44] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v7.6
-[00:20:44] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[00:20:44] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 7.6
-[00:20:44] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
-[00:20:44] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.0.3
-[00:20:44] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
-[00:20:44] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[00:20:44] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+111-b54c8c1
-[00:20:44] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
-[00:20:44] [Server thread/INFO]: Loaded 1290 recipes
-[00:20:44] [Server thread/INFO]: Loaded 1399 advancements
-[00:20:45] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
-[00:20:45] [Paper Async Command Builder Thread Pool - 6/ERROR]: Caught previously unhandled exception :
-[00:20:45] [Paper Async Command Builder Thread Pool - 6/ERROR]: Paper Async Command Builder Thread Pool - 6
-java.util.ConcurrentModificationException: null
-	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
-	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
-	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:537) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.sendAsync(Commands.java:496) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:475) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[00:20:45] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/SetHome-6.2.3.jar'...
-[00:20:45] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SetHome-6.2.3.jar' in 129ms.
-[00:20:45] [Server thread/INFO]: [PluginInitializerManager] Initialized 6 plugins
-[00:20:45] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+[00:13:51] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
+[00:13:51] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[00:13:51] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[00:13:51] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
+[00:13:51] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
  - Essentials (2.21.0-dev+111-b54c8c1), EssentialsSpawn (2.21.0-dev+111-b54c8c1), SetHome (6.2.3), SimpleTpa (7.6), SkinsRestorer (15.6.0), ViaVersion (5.0.3)
-[00:20:45] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+111-b54c8c1
-[00:20:45] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.3
-[00:20:45] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.3 is now loaded. Registering protocol transformers and injecting...
-[00:20:45] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
-[00:20:46] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[00:20:47] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[00:20:47] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+111-b54c8c1
-[00:20:47] [Server thread/INFO]: [SetHome] Loading server plugin SetHome v6.2.3
-[00:20:47] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v7.6
-[00:20:47] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.0
-[00:20:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:20:47] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.0
-[00:20:48] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
-[00:20:48] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[00:20:48] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
-[00:20:49] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[00:20:49] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+111-b54c8c1
-[00:20:49] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
-[00:20:49] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
-[00:20:49] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[00:20:49] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |------------------|
-[00:20:49] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[00:20:49] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
-[00:20:49] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
-[00:20:49] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Version: 15.6.0
-[00:20:49] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Commit: dec2ffc
-[00:20:49] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     This is the latest version!
-[00:20:49] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
-[00:20:49] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[00:20:49] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[00:20:50] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[00:20:50] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[00:20:50] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[00:20:50] [Server thread/INFO]: [Essentials] Loaded 42679 items from items.json.
-[00:20:50] [Server thread/INFO]: [Essentials] Using locale en
-[00:20:50] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[00:20:50] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[00:20:51] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[00:20:51] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.3
-[00:20:51] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21 (767)
-[00:20:51] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
-[00:20:51] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
-[00:20:51] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
-[00:20:51] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://viaversion.com/setup
-[00:20:51] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
-[00:20:51] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
-[00:20:51] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[00:20:51] [Server thread/INFO]: [SetHome] Enabling SetHome v6.2.3
-[00:20:51] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.6
-[00:20:51] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[00:20:51] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.6
-[00:20:51] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[00:20:51] [Server thread/INFO]: MaxxTer357: Reload complete.
-[00:20:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6590ms or 131 ticks behind
-[00:20:51] [Server thread/INFO]: Timings Reset
-[00:20:51] [Craft Scheduler Thread - 24 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[00:20:51] [Craft Scheduler Thread - 22 - Essentials/INFO]: [Essentials] Fetching version information...
-[00:20:51] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.2.1, you're on: 5.0.3
-[00:20:51] [Craft Scheduler Thread - 22 - Essentials/WARN]: [Essentials] You're 81 EssentialsX dev build(s) out of date!
-[00:20:51] [Craft Scheduler Thread - 22 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[00:21:04] [Server thread/INFO]: MaxxTer357 issued server command: /pl
-[00:21:06] [Server thread/INFO]: _MaxTer357_ issued server command: /sethome casa1
-[00:21:32] [Async Chat Thread - #7/INFO]: [Not Secure] <MaxxTer357> ./deletehome casa1
-[00:21:42] [Server thread/INFO]: MaxxTer357 issued server command: /deletehome casa1
-[00:21:51] [Server thread/INFO]: MaxxTer357 issued server command: /home casa1
-[00:21:53] [Server thread/INFO]: MaxxTer357 issued server command: /home casa1
-[00:22:00] [Server thread/INFO]: MaxxTer357 issued server command: /home casa1
-[00:22:02] [Server thread/INFO]: _MaxTer357_ issued server command: /deletehome MaxxTer357
-[00:22:13] [Server thread/INFO]: MaxxTer357 issued server command: /sethome ccasa
-[00:22:18] [Server thread/INFO]: MaxxTer357 issued server command: /home casa1
-[00:22:38] [Async Chat Thread - #9/INFO]: [Not Secure] <MaxxTer357> ./home
-[00:22:46] [Server thread/INFO]: MaxxTer357 issued server command: /home
-[00:23:16] [Server thread/INFO]: MaxxTer357 issued server command: /deletehome ccasa
-[00:23:52] [Server thread/INFO]: _MaxTer357_ issued server command: /sethome casa1
-[00:24:00] [Server thread/INFO]: _MaxTer357_ issued server command: /sethome casa2
-[00:24:34] [Server thread/INFO]: _MaxTer357_ issued server command: /home casa1
-[00:24:42] [Server thread/INFO]: _MaxTer357_ issued server command: /home casa2
-[00:24:59] [Server thread/INFO]: _MaxTer357_ was blown up by Creeper
-[00:25:15] [Server thread/INFO]: MaxxTer357 issued server command: /time set day
-[00:26:25] [Server thread/INFO]: MaxxTer357 has made the advancement [Ice Bucket Challenge]
-[00:26:43] [Server thread/INFO]: _MaxTer357_ was blown up by MaxxTer357
-[00:32:13] [Server thread/INFO]: _MaxTer357_ discovered the floor was lava
-[00:32:45] [Server thread/INFO]: MaxxTer357 issued server command: /gm 0
-[00:34:34] [Server thread/INFO]: _MaxTer357_ was slain by MaxxTer357
-[00:35:10] [Server thread/INFO]: MaxxTer357 was slain by _MaxTer357_
-[00:36:43] [Server thread/INFO]: MaxxTer357 has made the advancement [Stone Age]
-[00:37:22] [Server thread/INFO]: _MaxTer357_ has made the advancement [Monster Hunter]
-[00:37:29] [Server thread/INFO]: MaxxTer357 issued server command: /difficulty normal
-[00:37:37] [Server thread/INFO]: MaxxTer357 has made the advancement [Getting an Upgrade]
-[00:39:54] [Server thread/INFO]: _MaxTer357_ was shot by Skeleton
-[00:40:07] [Server thread/INFO]: MaxxTer357 has made the advancement [Monster Hunter]
-[00:40:37] [Server thread/INFO]: _MaxTer357_ issued server command: /home casa1
-[00:43:05] [Server thread/INFO]: MaxxTer357 was slain by Zombie
-[00:44:02] [Server thread/INFO]: MaxxTer357 was blown up by Creeper
-[00:44:02] [Server thread/INFO]: _MaxTer357_ was blown up by Creeper
-[00:44:11] [Server thread/INFO]: _MaxTer357_ issued server command: /home casa1
-[00:47:26] [Async Chat Thread - #11/INFO]: [Not Secure] <MaxxTer357> ya sabes craftear ??
-[00:47:45] [Async Chat Thread - #11/INFO]: [Not Secure] <MaxxTer357> ya sabes craftear ??
-[00:47:46] [Async Chat Thread - #11/INFO]: [Not Secure] <MaxxTer357> ya sabes craftear ??
-[00:47:46] [Async Chat Thread - #11/INFO]: [Not Secure] <MaxxTer357> ya sabes craftear ??
-[00:47:46] [Async Chat Thread - #11/INFO]: [Not Secure] <MaxxTer357> ya sabes craftear ??
-[00:49:07] [User Authenticator #3/INFO]: UUID of player RickSpether05 is e8e06145-8d88-37d8-9c09-6d7b0035b68c
-[00:49:08] [Server thread/INFO]: RickSpether05 joined the game
-[00:49:08] [Server thread/INFO]: RickSpether05[/127.195.105.238:49117] logged in with entity id 22144 at ([world]67.5, 69.0, -53.5)
-[00:49:09] [Server thread/INFO]: RickSpether05 has made the advancement [Getting an Upgrade]
-[00:49:28] [Async Chat Thread - #13/INFO]: [Not Secure] <RickSpether05> Xepalugus
-[00:49:41] [Server thread/INFO]: RickSpether05 lost connection: Disconnected
-[00:49:41] [Server thread/INFO]: RickSpether05 left the game
-[00:52:38] [User Authenticator #4/INFO]: UUID of player RickSpether05 is e8e06145-8d88-37d8-9c09-6d7b0035b68c
-[00:52:39] [Server thread/INFO]: RickSpether05 joined the game
-[00:52:39] [Server thread/INFO]: RickSpether05[/127.195.105.238:41933] logged in with entity id 22768 at ([world]69.51072415978632, 63.0, -71.97638242016853)
-[00:52:44] [Async Chat Thread - #15/INFO]: [Not Secure] <RickSpether05> Xepalugus
-[00:53:00] [Async Chat Thread - #15/INFO]: [Not Secure] <RickSpether05> Soplamusalagalarga
-[00:53:23] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa MaxxTer357
-[00:53:29] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
-[00:53:44] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
-[00:53:52] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa MaxxTer357
-[00:53:55] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
-[00:54:34] [Async Chat Thread - #17/INFO]: [Not Secure] <MaxxTer357> ./tpa
-[00:54:46] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[00:54:49] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
-[00:55:02] [Server thread/INFO]: RickSpether05 issued server command: /tpa _MaxTer357_
-[00:55:14] [Server thread/INFO]: _MaxTer357_ issued server command: /tpaccept
-[00:55:30] [Server thread/INFO]: RickSpether05 issued server command: /tpa _MaxTer357_
-[00:55:34] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[00:55:45] [Server thread/INFO]: RickSpether05 issued server command: /tpa _MaxTer357_
-[00:55:47] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[00:55:50] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
-[00:55:50] [Server thread/INFO]: _MaxTer357_ issued server command: /tpaccept
-[00:56:49] [User Authenticator #5/INFO]: UUID of player Manueljose23 is b7c048a7-8319-3fc7-adf2-dbc16a2c99bf
-[00:56:50] [Server thread/INFO]: Manueljose23 joined the game
-[00:56:50] [Server thread/INFO]: Manueljose23[/127.147.163.133:34205] logged in with entity id 23932 at ([world]63.5, 64.0, -64.5)
-[00:56:50] [Server thread/INFO]: Manueljose23 has made the advancement [Getting an Upgrade]
-[00:56:54] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[00:56:55] [Server thread/INFO]: RickSpether05 issued server command: /tpa _MaxTer357_
-[00:56:56] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
-[00:57:09] [Server thread/INFO]: RickSpether05 has made the advancement [Monster Hunter]
-[00:57:22] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa Manueljose23
-[00:57:24] [Server thread/INFO]: Manueljose23 issued server command: /tpaccept
-[00:57:41] [Async Chat Thread - #19/INFO]: [Not Secure] <Manueljose23> ricardo callate
-[00:58:20] [Async Chat Thread - #19/INFO]: [Not Secure] <MaxxTer357> ./tpa
-[00:58:27] [Server thread/INFO]: RickSpether05 has made the advancement [Stone Age]
-[00:58:30] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa m
-[00:58:32] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
-[00:58:53] [Async Chat Thread - #19/INFO]: [Not Secure] <_MaxTer357_> ./tpa Maxxter357
-[00:59:08] [Server thread/INFO]: Manueljose23 issued server command: /tpa MaxxTer357
-[00:59:12] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
-[01:01:16] [Server thread/INFO]: Manueljose23 was shot by Skeleton
-[01:01:26] [Server thread/INFO]: RickSpether05 has made the advancement [Sweet Dreams]
-[01:01:29] [Server thread/INFO]: MaxxTer357 has made the advancement [Acquire Hardware]
-[01:01:45] [Server thread/INFO]: Manueljose23 issued server command: /tpa RickSpether05
-[01:01:55] [Server thread/INFO]: Manueljose23 issued server command: /tpa _MaxTer357_
-[01:02:18] [Server thread/INFO]: MaxxTer357 has made the advancement [Isn't It Iron Pick]
-[01:02:26] [Server thread/INFO]: _MaxTer357_ lost connection: Timed out
-[01:02:26] [Server thread/INFO]: _MaxTer357_ left the game
-[01:02:27] [Server thread/INFO]: Manueljose23 issued server command: /tpa MaxxTer357
-[01:02:29] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
-[01:03:21] [User Authenticator #6/INFO]: UUID of player _MaxTer357_ is f0cb2c12-7e04-3baa-b000-47395d8f0ece
-[01:03:23] [Server thread/INFO]: _MaxTer357_ joined the game
-[01:03:23] [Server thread/INFO]: _MaxTer357_[/127.243.117.33:51437] logged in with entity id 24998 at ([world]92.75359694271171, 63.0, -151.70166094299816)
-[01:04:15] [Server thread/INFO]: Manueljose23 has made the advancement [Sweet Dreams]
-[01:05:10] [Server thread/INFO]: _MaxTer357_ was slain by MaxxTer357
-[01:05:26] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa m
-[01:05:28] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
-[01:09:31] [Async Chat Thread - #21/INFO]: [Not Secure] <RickSpether05> xepalugus
-[01:09:34] [Async Chat Thread - #21/INFO]: [Not Secure] <RickSpether05> xepalugus
-[01:09:36] [Async Chat Thread - #21/INFO]: [Not Secure] <RickSpether05> xepalugus
-[01:09:37] [Async Chat Thread - #21/INFO]: [Not Secure] <RickSpether05> xepalugus
-[01:09:40] [Async Chat Thread - #21/INFO]: [Not Secure] <RickSpether05> xepalugus
-[01:09:43] [Async Chat Thread - #21/INFO]: [Not Secure] <RickSpether05> xepalugus
-[01:09:48] [Async Chat Thread - #21/INFO]: [Not Secure] <RickSpether05> xpleauusg
-[01:10:11] [Server thread/INFO]: MaxxTer357 has made the advancement [Suit Up]
-[01:12:03] [Async Chat Thread - #23/INFO]: [Not Secure] <RickSpether05> a muerto por un esqueleto
-[01:12:23] [Async Chat Thread - #23/INFO]: [Not Secure] <RickSpether05> a sido muerto por una gallina
-[01:12:40] [Async Chat Thread - #23/INFO]: [Not Secure] <RickSpether05> a sido violado por un creeper
-[01:12:53] [Server thread/INFO]: MaxxTer357 has made the advancement [Not Today, Thank You]
-[01:12:53] [Async Chat Thread - #23/INFO]: [Not Secure] <RickSpether05> a sido violado por un aldeano
-[01:13:16] [Async Chat Thread - #23/INFO]: [Not Secure] <RickSpether05> a sido violado por un esqueleto
-[01:13:32] [Async Chat Thread - #23/INFO]: [Not Secure] <RickSpether05> a sido violado por MaxTer357
-[01:13:51] [Async Chat Thread - #23/INFO]: [Not Secure] <RickSpether05> se ahorco
-[01:14:09] [Async Chat Thread - #23/INFO]: [Not Secure] <RickSpether05> murio en la dimension paralela de roblox
-[01:14:25] [Async Chat Thread - #23/INFO]: [Not Secure] <RickSpether05> a muerto por un xepalugus
-[01:14:57] [Async Chat Thread - #23/INFO]: [Not Secure] <RickSpether05> a matado a manueljose
-[01:16:12] [Server thread/INFO]: Manueljose23 issued server command: /tpa _MaxTer357_
-[01:16:23] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa
-[01:16:45] [Server thread/INFO]: Manueljose23 issued server command: /tpa _MaxTer357_
-[01:17:04] [Server thread/INFO]: Manueljose23 issued server command: /tpa MaxxTer357
-[01:17:24] [Server thread/INFO]: Manueljose23 issued server command: /tpa _MaxTer357_
-[01:17:24] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa
-[01:17:25] [Server thread/INFO]: MaxxTer357 issued server command: /tpa _MaxTer357_
-[01:17:37] [Server thread/INFO]: _MaxTer357_ issued server command: /tpaccept
-[01:17:45] [Server thread/INFO]: MaxxTer357 issued server command: /tpa _MaxTer357_
-[01:18:01] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa
-[01:18:06] [Server thread/INFO]: MaxxTer357 issued server command: /tpa _MaxTer357_
-[01:18:17] [Server thread/INFO]: _MaxTer357_ issued server command: /tpaccept
-[01:18:24] [Async Chat Thread - #25/INFO]: [Not Secure] <RickSpether05> Master dale a F5
-[01:18:38] [Async Chat Thread - #25/INFO]: [Not Secure] <RickSpether05> Dale a ALT + F4
-[01:18:45] [Server thread/INFO]: Manueljose23 has made the advancement [Monster Hunter]
-[01:20:32] [Async Chat Thread - #27/INFO]: [Not Secure] <RickSpether05> Vegeta7777777777777777777777777777777777777777777
-[01:20:51] [Async Chat Thread - #27/INFO]: [Not Secure] <RickSpether05> Ramboxakalabazucka
-[01:20:53] [Async Chat Thread - #27/INFO]: [Not Secure] <Manueljose23> Ricardo es pajaro
-[01:20:59] [Async Chat Thread - #27/INFO]: [Not Secure] <RickSpether05> Tu abuela por si acaso
-[01:21:08] [Async Chat Thread - #27/INFO]: [Not Secure] <Manueljose23> RiXARDO
-[01:21:09] [Server thread/INFO]: _MaxTer357_ has made the advancement [Sweet Dreams]
-[01:27:46] [Server thread/INFO]: Manueljose23 fell from a high place
-[01:28:12] [Server thread/INFO]: MaxxTer357 has made the advancement [A Seedy Place]
-[01:29:44] [Server thread/INFO]: Manueljose23 has made the advancement [Stone Age]
-[01:31:37] [Async Chat Thread - #29/INFO]: [Not Secure] <RickSpether05> 2011
-[01:32:48] [Server thread/INFO]: Manueljose23 was slain by Zombie
-[01:37:53] [Async Chat Thread - #31/INFO]: [Not Secure] <RickSpether05> Vegeta7777777777777777777777777777777777777777777
-[01:38:04] [Server thread/INFO]: RickSpether05 issued server command: /tpa
-[01:38:19] [Server thread/INFO]: RickSpether05 issued server command: /tpa
-[01:38:43] [Server thread/INFO]: Manueljose23 fell from a high place
-[01:43:26] [Server thread/INFO]: _MaxTer357_ has made the advancement [Stone Age]
-[01:45:16] [Server thread/INFO]: Manueljose23 was slain by RickSpether05
-[01:47:02] [Server thread/INFO]: _MaxTer357_ was shot by Skeleton
-[01:47:20] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:47:22] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:47:22] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa RickSpether05
-[01:47:22] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:47:23] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
-[01:47:23] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:47:24] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:47:24] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:47:24] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:47:25] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:47:25] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:47:25] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:47:44] [Server thread/INFO]: RickSpether05 issued server command: /tpa
-[01:47:48] [Server thread/INFO]: RickSpether05 issued server command: /tpa
-[01:47:49] [Server thread/INFO]: Manueljose23 fell from a high place
-[01:47:51] [Server thread/INFO]: RickSpether05 issued server command: /tpa _MaxTer357_
-[01:48:32] [Server thread/INFO]: RickSpether05 issued server command: /tpa _MaxTer357_
-[01:48:47] [Server thread/INFO]: _MaxTer357_ issued server command: /tpaccept
-[01:49:59] [Server thread/INFO]: Manueljose23 issued server command: /tpa MaxxTer357
-[01:50:02] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
-[01:53:48] [Server thread/INFO]: MaxxTer357 issued server command: /sethome casa2
-[01:54:39] [Server thread/INFO]: Manueljose23 has made the advancement [Acquire Hardware]
-[01:54:52] [Server thread/INFO]: RickSpether05 issued server command: /tpa _MaxTer357_
-[01:54:58] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:55:00] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:55:01] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:55:02] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:55:02] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357t
-[01:55:04] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:55:04] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:55:05] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:55:06] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:55:06] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:55:07] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:55:07] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:55:07] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:55:08] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:55:08] [Server thread/INFO]: _MaxTer357_ issued server command: /tpaccept
-[01:55:08] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:55:08] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
-[01:55:09] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:55:09] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:55:16] [Async Chat Thread - #33/INFO]: [Not Secure] <RickSpether05> ESTOY LOCOOOOOOOOOOOWWWWWWWWWWWWWWWWWWWWW
-[01:55:20] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:55:22] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
-[01:55:23] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:55:24] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:55:24] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:55:24] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:55:25] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:55:25] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:55:25] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:55:43] [Server thread/INFO]: MaxxTer357 issued server command: /home casa1
-[01:56:07] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa MaxxTer357
-[01:56:09] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
-[01:56:20] [Server thread/INFO]: Manueljose23 issued server command: /tpa _MaxTer357_
-[01:56:30] [Server thread/INFO]: _MaxTer357_ issued server command: /tpaccept
-[01:57:30] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:57:33] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
-[01:57:40] [Server thread/INFO]: _MaxTer357_ issued server command: /tpaccept
-[01:57:42] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[01:57:43] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
-[01:59:25] [Server thread/INFO]: Manueljose23 has made the advancement [Suit Up]
-[02:00:48] [Server thread/INFO]: _MaxTer357_ was slain by Zombie
-[02:01:08] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa Manueljose23
-[02:01:13] [Server thread/INFO]: Manueljose23 issued server command: /tpaccept
-[02:01:23] [Async Chat Thread - #35/INFO]: [Not Secure] <Manueljose23> rick mmg
-[02:07:54] [Server thread/INFO]: RickSpether05 has made the advancement [A Seedy Place]
-[02:09:37] [Server thread/INFO]: MaxxTer357 issued server command: /home casa1
-[02:12:32] [Server thread/INFO]: Villager Villager['Villager'/29622, uuid='8e2ea0fc-19dc-49d9-be57-239b01b3db27', l='ServerLevel[world]', x=-424.56, y=71.00, z=-259.39, cpos=[-27, -17], tl=21550, v=true] died, message: 'Villager suffocated in a wall'
-[02:14:38] [Server thread/INFO]: Manueljose23 issued server command: /sethome manuel house
-[02:14:39] [Async Chat Thread - #37/INFO]: [Not Secure] <_MaxTer357_> ./sethome casa?
-[02:14:54] [Server thread/INFO]: Manueljose23 issued server command: /sethome casa manuel
-[02:14:56] [Server thread/INFO]: Manueljose23 lost connection: Disconnected
-[02:14:56] [Server thread/INFO]: Manueljose23 left the game
-[02:15:07] [Async Chat Thread - #37/INFO]: [Not Secure] <_MaxTer357_> ./sethome
-[02:15:15] [User Authenticator #7/INFO]: UUID of player Manueljose23 is b7c048a7-8319-3fc7-adf2-dbc16a2c99bf
-[02:15:16] [Server thread/INFO]: Manueljose23 joined the game
-[02:15:16] [Server thread/INFO]: Manueljose23[/127.147.163.133:41503] logged in with entity id 46186 at ([world]-251.67392545709978, 64.0, -185.44285147778342)
-[02:15:23] [Server thread/INFO]: Manueljose23 lost connection: Disconnected
-[02:15:23] [Server thread/INFO]: Manueljose23 left the game
-[02:16:48] [Server thread/INFO]: _MaxTer357_ has made the advancement [A Seedy Place]
-[02:19:48] [Server thread/INFO]: RickSpether05 lost connection: Disconnected
-[02:19:48] [Server thread/INFO]: RickSpether05 left the game
-[02:19:57] [User Authenticator #8/INFO]: UUID of player RickSpether05 is e8e06145-8d88-37d8-9c09-6d7b0035b68c
-[02:19:58] [Server thread/INFO]: RickSpether05 joined the game
-[02:19:58] [Server thread/INFO]: RickSpether05[/127.195.105.238:39705] logged in with entity id 47090 at ([world]-297.2334193808312, 67.0, -99.63097045233387)
-[02:20:03] [Server thread/INFO]: RickSpether05 was blown up by Creeper
-[02:20:10] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[02:20:12] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[02:20:12] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
-[02:21:08] [Server thread/INFO]: RickSpether05 was shot by Skeleton
-[02:21:12] [Server thread/INFO]: RickSpether05 issued server command: /tpa MaxxTer357
-[02:21:16] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
-[02:22:59] [Server thread/INFO]: _MaxTer357_ was slain by Zombie
-[02:23:27] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa
-[02:23:37] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa MaxxTer357
-[02:23:43] [Server thread/INFO]: MaxxTer357 issued server command: /home casa1
-[02:23:45] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
-[02:25:09] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa RickSpether05
-[02:25:15] [Server thread/INFO]: RickSpether05 issued server command: /accept
-[02:25:26] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa RickSpether05
-[02:25:28] [Server thread/INFO]: RickSpether05 issued server command: /accept
-[02:27:21] [Server thread/INFO]: MaxxTer357 has made the advancement [Sweet Dreams]
-[02:32:06] [Server thread/INFO]: MaxxTer357 has made the advancement [The Parrots and the Bats]
-[02:33:24] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa MaxxTer357
-[02:33:25] [Server thread/INFO]: MaxxTer357 issued server command: /tpaccept
-[02:38:01] [Server thread/INFO]: MaxxTer357 lost connection: Disconnected
-[02:38:01] [Server thread/INFO]: MaxxTer357 left the game
-[02:38:16] [User Authenticator #9/INFO]: UUID of player MaxxTer357 is 17547074-87d0-3c2a-9d72-1fca58296ef7
-[02:38:18] [Server thread/INFO]: MaxxTer357 joined the game
-[02:38:18] [Server thread/INFO]: MaxxTer357[/127.141.63.150:33089] logged in with entity id 51259 at ([world]-248.0389601566729, 63.0, -154.83457916973478)
-[02:42:22] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa RickSpether05
-[02:42:27] [Server thread/INFO]: RickSpether05 issued server command: /accept
-[02:43:08] [Server thread/INFO]: MaxxTer357 lost connection: Disconnected
-[02:43:08] [Server thread/INFO]: MaxxTer357 left the game
-[02:55:38] [Async Chat Thread - #39/INFO]: [Not Secure] <RickSpether05> Yo retiro lo dicho
-[03:03:07] [Async Chat Thread - #41/INFO]: [Not Secure] <RickSpether05> A que si te lo meto :v
-[03:11:35] [Async Chat Thread - #43/INFO]: [Not Secure] <RickSpether05> El baile del Dinero
-[03:13:57] [Server thread/INFO]: [Not Secure] [Server] Masterlsay Masterlandia SE LA COME
-[03:14:28] [Server thread/INFO]: [Not Secure] [Server] si lees esto es gay
-[03:14:57] [Server thread/INFO]: [Not Secure] [Server] hey hey nono
-[03:15:23] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /thor _MaxTer357_
-[03:15:23] [Server thread/INFO]: Smiting _MaxTer357_
-[03:15:28] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /thor _MaxTer357_
-[03:15:28] [Server thread/INFO]: Smiting _MaxTer357_
-[03:15:37] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /thor _MaxTer357_
-[03:15:37] [Server thread/INFO]: Smiting _MaxTer357_
-[03:15:46] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /thor _MaxTer357_
-[03:15:46] [Server thread/INFO]: Smiting _MaxTer357_
-[03:15:46] [Server thread/INFO]: _MaxTer357_ died
-[03:16:06] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa RickSpether05
-[03:16:19] [Server thread/INFO]: [Not Secure] [Server] yo no fui que coste :3
-[03:16:45] [Server thread/INFO]: RickSpether05 issued server command: /accept
-[03:17:33] [Server thread/INFO]: _MaxTer357_ issued server command: /tpa _MaxTer357_
-[03:18:06] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /thor RickSpether05
-[03:18:06] [Server thread/INFO]: Smiting RickSpether05
-[03:18:15] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /thor RickSpether05
-[03:18:15] [Server thread/INFO]: Smiting RickSpether05
-[03:18:18] [Server thread/INFO]: RickSpether05 lost connection: Disconnected
-[03:18:18] [Server thread/INFO]: RickSpether05 left the game
-[03:18:40] [Server thread/INFO]: [Not Secure] [Server] repite despues de mi maxter no cocina
-[03:18:57] [Server thread/INFO]: [Not Secure] [Server] repite despues de mi maxter no cocina
-[03:19:09] [Server thread/INFO]: [Not Secure] [Server] repite despues de mi maxter no cocina
-[03:19:09] [Server thread/INFO]: [Not Secure] [Server] repite despues de mi maxter no cocina
-[03:19:10] [Server thread/INFO]: [Not Secure] [Server] repite despues de mi maxter no cocina
-[03:19:10] [Server thread/INFO]: [Not Secure] [Server] repite despues de mi maxter no cocina
-[03:19:21] [Server thread/INFO]: [Not Secure] [Server] repite despues de mi maxter no cocina
-[03:19:21] [Server thread/INFO]: [Not Secure] [Server] repite despues de mi maxter no cocina
-[03:19:22] [Server thread/INFO]: [Not Secure] [Server] repite despues de mi maxter no cocina
-[03:19:23] [Server thread/INFO]: [Not Secure] [Server] repite despues de mi maxter no cocina
-[03:19:23] [Server thread/INFO]: [Not Secure] [Server] repite despues de mi maxter no cocina
-[03:19:24] [Server thread/INFO]: [Not Secure] [Server] repite despues de mi maxter no cocina
-[03:19:25] [Server thread/INFO]: [Not Secure] [Server] repite despues de mi maxter no cocina
-[03:19:29] [User Authenticator #10/INFO]: UUID of player RickSpether05 is e8e06145-8d88-37d8-9c09-6d7b0035b68c
-[03:19:30] [Server thread/INFO]: RickSpether05 joined the game
-[03:19:30] [Server thread/INFO]: RickSpether05[/127.195.105.238:43425] logged in with entity id 58553 at ([world]-292.829060437291, 68.0, -105.21457479594716)
-[03:19:33] [Server thread/INFO]: [Not Secure] [Server] repite despues de mi maxter no cocina
-[03:19:33] [Server thread/INFO]: [Not Secure] [Server] repite despues de mi maxter no cocina
-[03:19:34] [Server thread/INFO]: [Not Secure] [Server] repite despues de mi maxter no cocina
-[03:19:35] [Server thread/INFO]: [Not Secure] [Server] repite despues de mi maxter no cocina
-[03:19:35] [Server thread/INFO]: [Not Secure] [Server] repite despues de mi maxter no cocina
-[03:19:35] [Server thread/INFO]: [Not Secure] [Server] repite despues de mi maxter no cocina
-[03:19:49] [Server thread/INFO]: [Not Secure] [Server] repite despues de mi maxter no cocina
-[03:19:49] [Server thread/INFO]: [Not Secure] [Server] repite despues de mi maxter no cocina
-[03:19:50] [Server thread/INFO]: [Not Secure] [Server] repite despues de mi maxter no cocina
-[03:19:50] [Server thread/INFO]: [Not Secure] [Server] repite despues de mi maxter no cocina
-[03:19:51] [Server thread/INFO]: [Not Secure] [Server] repite despues de mi maxter no cocina
-[03:19:51] [Server thread/INFO]: [Not Secure] [Server] repite despues de mi maxter no cocina
-[03:19:52] [Server thread/INFO]: [Not Secure] [Server] repite despues de mi maxter no cocina
-[03:19:52] [Server thread/INFO]: [Not Secure] [Server] repite despues de mi maxter no cocina
-[03:19:53] [Server thread/INFO]: [Not Secure] [Server] repite despues de mi maxter no cocina
-[03:21:48] [Server thread/INFO]: [Not Secure] [Server] Repite despues de mi masterlandia le van a dar 100 subs
-[03:22:13] [Server thread/INFO]: [Not Secure] [Server] Y despues se las van a cancelar porque esa una broma
-[03:22:31] [Server thread/INFO]: [Not Secure] [Server] XDDD
-[03:22:48] [Async Chat Thread - #48/INFO]: [Not Secure] <_MaxTer357_> y luego seguira haciendo contenido con sus amigos y les pagara porque es buena persona
-[03:30:04] [Server thread/INFO]: _MaxTer357_ was shot by Skeleton
-[03:31:32] [User Authenticator #11/INFO]: UUID of player MaxxTer357 is 17547074-87d0-3c2a-9d72-1fca58296ef7
-[03:31:33] [Server thread/INFO]: MaxxTer357 joined the game
-[03:31:33] [Server thread/INFO]: MaxxTer357[/127.141.63.150:35453] logged in with entity id 60040 at ([world]-232.63165811757207, 64.0, -168.7551814447927)
-[03:34:06] [Server thread/INFO]: MaxxTer357 issued server command: /gm 3
-[03:34:11] [Server thread/INFO]: MaxxTer357 issued server command: /tp _MaxTer357_
-[03:34:19] [Server thread/INFO]: MaxxTer357 issued server command: /tp _MaxTer357_
-[03:34:27] [Server thread/INFO]: _MaxTer357_ lost connection: Disconnected
-[03:34:27] [Server thread/INFO]: _MaxTer357_ left the game
-[03:34:34] [Server thread/INFO]: MaxxTer357 issued server command: /home casa1
-[03:34:39] [Server thread/INFO]: MaxxTer357 issued server command: /gm 0
-[03:36:23] [Server thread/INFO]: MaxxTer357 lost connection: Disconnected
-[03:36:23] [Server thread/INFO]: MaxxTer357 left the game
-[03:48:59] [Server thread/INFO]: RickSpether05 was slain by Zombie
-[03:49:19] [Server thread/INFO]: RickSpether05 lost connection: Disconnected
-[03:49:19] [Server thread/INFO]: RickSpether05 left the game
-[04:41:35] [Server thread/INFO]: Stopping server
-[04:41:35] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.0
-[04:41:35] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v7.6
-[04:41:35] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[04:41:35] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 7.6
-[04:41:35] [Server thread/INFO]: [SetHome] Disabling SetHome v6.2.3
-[04:41:35] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
-[04:41:35] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.0.3
-[04:41:35] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[04:41:35] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+111-b54c8c1
-[04:41:35] [Server thread/INFO]: Saving players
-[04:41:35] [Server thread/INFO]: Saving worlds
-[04:41:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[04:41:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[04:41:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[04:41:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[04:41:35] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 111 entity chunks, 0 poi chunks in world 'world' in 0.03s
-[04:41:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[04:41:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[04:41:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[04:41:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[04:41:35] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[04:41:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[04:41:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[04:41:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[04:41:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[04:41:35] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[04:41:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[04:41:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[04:41:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[04:41:35] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:13:56] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:13:57] [ServerMain/INFO]: Loaded 1290 recipes
+[00:13:58] [ServerMain/INFO]: Loaded 1399 advancements
+[00:13:58] [Server thread/INFO]: Starting minecraft server version 1.21
+[00:13:58] [Server thread/INFO]: Loading properties
+[00:13:58] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[00:13:59] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[00:13:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:13:59] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:13:59] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[00:14:00] [Server thread/INFO]: Default game type: SURVIVAL
+[00:14:00] [Server thread/INFO]: Generating keypair
+[00:14:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:14:00] [Server thread/INFO]: Using epoll channel type
+[00:14:00] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[00:14:00] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[00:14:01] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+111-b54c8c1
+[00:14:01] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.3
+[00:14:01] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.3 is now loaded. Registering protocol transformers and injecting...
+[00:14:02] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[00:14:03] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[00:14:03] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[00:14:03] [Server thread/INFO]: [SetHome] Loading server plugin SetHome v6.2.3
+[00:14:03] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v7.6
+[00:14:03] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.0
+[00:14:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:14:03] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.0
+[00:14:04] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[00:14:05] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
+[00:14:06] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[00:14:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:14:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:14:06] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:14:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:14:06] [Server thread/INFO]: Preparing level "world"
+[00:14:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[00:14:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[00:14:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[00:14:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[00:14:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[00:14:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[00:14:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[00:14:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.0
+[00:14:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: dec2ffc
+[00:14:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     A new version (15.6.2) is available! Downloading update...
+[00:14:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[00:14:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[00:14:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[00:14:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Downloading update...
+[00:14:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:14:06] [Folia Async Scheduler Thread #1/WARN]: [SkinsRestorer] [GitHubUpdate] SHA256 hash not found, cannot verify integrity
+[00:14:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Downloaded update in 489ms
+[00:14:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Update saved as SkinsRestorer.jar
+[00:14:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] The update will be loaded on the next server restart
+[00:14:07] [Server thread/INFO]: Time elapsed: 1276 ms
+[00:14:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[00:14:08] [Server thread/INFO]: Time elapsed: 193 ms
+[00:14:08] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[00:14:08] [Server thread/INFO]: Time elapsed: 110 ms
+[00:14:08] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+111-b54c8c1
+[00:14:08] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[00:14:09] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[00:14:09] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[00:14:09] [Server thread/INFO]: [Essentials] Loaded 42679 items from items.json.
+[00:14:09] [Server thread/INFO]: [Essentials] Using locale en
+[00:14:09] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[00:14:10] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[00:14:10] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[00:14:10] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.3
+[00:14:10] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21 (767)
+[00:14:10] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
+[00:14:10] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
+[00:14:10] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
+[00:14:10] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://viaversion.com/setup
+[00:14:10] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
+[00:14:10] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[00:14:10] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[00:14:10] [Server thread/INFO]: [SetHome] Enabling SetHome v6.2.3
+[00:14:10] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.6
+[00:14:10] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[00:14:10] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.6
+[00:14:10] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[00:14:10] [Server thread/INFO]: [spark] Starting background profiler...
+[00:14:10] [Server thread/INFO]: Done preparing level "world" (4.690s)
+[00:14:10] [Server thread/INFO]: Running delayed init tasks
+[00:14:10] [Craft Scheduler Thread - 1 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[00:14:10] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[00:14:10] [Server thread/INFO]: Done (20.726s)! For help, type "help"
+[00:14:10] [Server thread/INFO]: Timings Reset
+[00:14:10] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.3.2, you're on: 5.0.3
+[00:14:11] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] You're 92 EssentialsX dev build(s) out of date!
+[00:14:11] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[00:14:41] [User Authenticator #0/INFO]: UUID of player MaxxTer357 is 17547074-87d0-3c2a-9d72-1fca58296ef7
+[00:14:43] [Server thread/INFO]: MaxxTer357 joined the game
+[00:14:43] [Server thread/INFO]: MaxxTer357[/127.173.243.67:47727] logged in with entity id 64 at ([world]-233.10624404352927, 64.0, -165.43690775185382)
+[00:15:01] [Server thread/INFO]: MaxxTer357 issued server command: /gm 1
+[00:17:02] [Server thread/INFO]: MaxxTer357 lost connection: Disconnected
+[00:17:02] [Server thread/INFO]: MaxxTer357 left the game
+[00:19:25] [User Authenticator #1/INFO]: UUID of player MaxxTer357 is 17547074-87d0-3c2a-9d72-1fca58296ef7
+[00:19:27] [Server thread/INFO]: MaxxTer357 joined the game
+[00:19:27] [Server thread/INFO]: MaxxTer357[/127.173.243.67:50625] logged in with entity id 2621 at ([world]-248.51933502370562, 64.0, -162.89911363717889)
